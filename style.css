@@ -1,0 +1,114 @@
+/* General */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 199, 238);
+    font-family: poppins;
+    position: relative;
+}
+
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Main */
+#code{
+    height: 470px;
+    width: 388px;
+    background-color: rgb(64, 16, 44);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* image edits */
+.image{
+    text-align: center;
+    align-items: center;
+}
+
+.image img{
+    width: 330px;
+    margin-top: 10px;
+    border-radius: 13px;
+}
+
+.text{
+    text-align: center;
+}
+.text p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Personal Information */
+.info{
+    text-align: center;
+}
+.info p{
+    color: black;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+/* frontend mentor link */
+.challeng{
+    margin-left: 35px;
+}
+
+/* Personal Links */
+#ali{
+    height: 110px;
+    width: 235px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-top: 25px;
+    position: absolute;
+    right: 75px;
+    top: 50px;
+}
+
+#ali .container{
+    margin-top: 45px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#ali .container div{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 14px;
+    transition: 0.2s;
+}
+
+/* github hover */
+ .container .github i:hover{
+    color: rgb(28, 158, 28);
+}
+
+/* twitter hover */
+.container .twitter i:hover{
+    color: rgb(25, 123, 179);
+}
+
+/* instagram hover */
+.container .instagram i:hover{
+    color: rgb(186, 37, 11);
+}
+
+/* container hover */
+#ali .container div:hover{
+    transform: scale(1.8);
+}
+
+#ali:hover{
+    background-color: rgb(214, 209, 209);
+}
